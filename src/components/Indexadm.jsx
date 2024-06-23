@@ -87,12 +87,12 @@ export const Indexadm = () => {
               </Link>
             </li>
             <li id="li_cerrar">
-              <a href="#" className="but_menu">
+              <button onClick={handleLogout} className="but_menu">
                 <i className="fa-regular fa-circle-xmark" />
-                <label htmlFor="btn-modal">
+                <label htmlFor="btn-modal-ventas">
                   Cerrar sesión
                 </label>
-              </a>
+              </button>
             </li>
           </ul>
         </div>
