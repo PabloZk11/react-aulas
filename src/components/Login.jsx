@@ -6,13 +6,13 @@ import './css/Login.css';
 const Login = () => {
   const url = "https://laravel-production-fb9e.up.railway.app/api/login";
   const [email, setEmail] = useState('');
-  const [contraseña, setcontraseña] = useState('');
+  const [contrasena, setcontrasena] = useState('');
   const [error, setError] = useState('');
 
   const handleVerificacionUsuario = async (e) => {
     e.preventDefault();
     try {
-      const response = await axios.post(url, { email, contraseña});
+      const response = await axios.post(url, { email, contrasena});
       console.log(response.data); // Maneja la respuesta del backend aquí
       if (response.data.role === 'admin') {
         window.location.href = '/Indexadm'; // Redirige al administrador a la página Indexadm
@@ -42,7 +42,7 @@ const Login = () => {
             <form onSubmit={handleVerificacionUsuario}>
               <h1>Ingresar</h1>
               <input type="email" placeholder="Email" value={email} onChange={(e) => setEmail(e.target.value)} />
-              <input type="password" placeholder="Contraseña" value={contraseña} onChange={(e) => setcontraseña(e.target.value)} />
+              <input type="password" placeholder="contraseña" value={contrasena} onChange={(e) => setcontrasena(e.target.value)} />
               <button type="submit">Ingresar</button>
               {error && <p>{error}</p>}
             </form>
