@@ -1,0 +1,565 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+  }
+  
+  body {
+    background-color: #fce8e8;
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+    min-height: 100vh;
+  }
+  
+  body a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  /*Navegacion*/
+  
+  #header {
+    width: auto;
+    background-color: #92000A;
+    height: 90px;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+  }
+  
+  #img_logo {
+    margin-left: 25px;
+  }
+  
+  #logo {
+    margin-left: 10px;
+  }
+  
+  
+  #nav_re {
+    width: 380px;
+  }
+  
+  #nav_ul {
+    display: flex;
+    list-style: none;
+  }
+  
+  /*Navegacion fin*/
+  
+  /*:::Ventana Modal:::*/
+  
+  .baja{
+    margin-top: 140px;
+  }
+
+  #btn-modal {
+    display: none;
+  }
+  
+  .container-modal {
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(144, 148, 150, 0.603);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+  }
+  
+  #btn-modal:checked ~ .container-modal {
+    display: flex;
+  }
+  
+  .content-modal {
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 4px;
+  }
+  
+  .content-modal h2 {
+    margin-bottom: 15px;
+  }
+  
+  .content-modal p {
+    padding: 15px 0px;
+    border-top: 1px solid #dbdbdb;
+    border-bottom: 1px solid #dbdbdb;
+  }
+  
+  .content-modal .btn-cerrar {
+    width: 100%;
+    margin-top: 15px;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .content-modal .btn-cerrar label {
+    padding: 7px 10px;
+    background-color: #a72c2c;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 300ms ease;
+  }
+  
+  .content-modal .btn-cerrar label:hover {
+    background-color: #92000A;
+  }
+  
+  .cerrar-modal {
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+  }
+  
+  @media screen and (max-width:800px) {
+    .content-modal {
+        width: 90%;
+    }
+  }
+  
+  /*:::Fin Ventana Modal:::*/
+  
+  /* Menu  */
+  
+  .sidebar {
+    position: flex;
+    background: #cd3030;
+    width: 275px;
+    height: 90vh;
+    left: 0;
+    z-index: 1;
+  }
+  
+  .menu_nav {
+    display: flex;
+    flex-direction: column;
+    height: 10REM;
+  }
+  
+  .sidebar h2 {
+    text-align: center;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: white;
+    background: #cd3030;
+    padding: 38.5px;
+    font-weight: bold;
+  }
+  
+  .sidebar ul li {
+    margin: 15px 0;
+  }
+  
+  .sidebar ul li label {
+    cursor: pointer;
+    margin-left: 15px;
+  }
+  
+  .sidebar ul li a {
+    color: #fff;
+    padding: 0 30px;
+    transition: all 0.25s ease;
+  }
+  
+  .sidebar ul li a:hover {
+    color: #000;
+    margin-left: 20px;
+  }
+  
+  /* Menu Fin */
+  
+  /*Cerrar Sesión*/
+  
+  .exit {
+    color: #ffffff;
+  }
+  
+  .exit a:hover {
+    color: #000000;
+    margin-left: 20px;
+    transition: 0.4s;
+  }
+  
+  /*Cerrar Sesión*/
+/* Contenido  */
+.main {
+    margin: auto;
+    padding: 5px;
+    text-align: center;
+    margin-left: -12%; 
+  }
+  
+  .main h2 {
+    margin-bottom: 10px;
+    font-size: 40px;
+  }
+  
+  .p1 {
+    margin-bottom: 10px;
+    font-size: 20px;
+  }
+  
+  .main h2 {
+    margin-top: 50px;
+  }
+  /* Contenido Fin */
+  
+  
+  /*Botones*/
+  
+  .boton {
+    margin-top: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  #btnav {
+    width: 300px;
+    height: 300px;
+    background-color: white;
+    border-radius: 150px;
+    font-family: arial black;
+    font-size: 100%;
+    color: black;
+    border: 2px solid #92000A;
+    margin: 20px;
+  }
+
+  @keyframes parpadeo {
+    0% { opacity: 0; }
+    50% { opacity: 1; }
+    100% { opacity: 0; }
+  }
+  
+  #btnav:hover {
+    animation: parpadeo 0.5s ease-in-out infinite;
+    background: #ecd2d2;
+  }
+  
+  #btnav img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  /*Botones Fin*/
+  
+  /*Footer*/
+  
+  #foot {
+    background-color: #000;
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    font-size: 200px;
+    z-index: 2;
+  }
+
+  
+  #derechos {
+    color: white;
+    font-size: 22px;
+    margin: auto;
+    font-family: 'Poppins';
+  }
+  
+  /*Pqrs*/
+  
+  .pqrs {
+    position: absolute;
+    position: fixed;
+    bottom: 95px;
+    right: 50px;
+    cursor: pointer;
+  }
+  
+  .pqrs i {
+    color: #000000;
+    font-size: 40px;
+    border-radius: 40px;
+    overflow: hidden;
+    transition: opacity .15s
+  }
+  
+  .check-box {
+    margin: 10px 11px 15px 0;
+  }
+  
+  /*pqrs fin*/
+  
+  /*Bootstarp*/
+  
+  .card-img-top {
+    border: 3px solid #a00000; /* Color del borde */
+    border-radius: 30px; /* Borde redondeado */
+    width: 320px; /* Ancho de la imagen */
+    height: auto; /* Altura automática para mantener la proporción */
+  }
+  
+  .card-body {
+    margin-left: -1%;
+    text-align: center; /* Centrar el texto */
+    font-size: 20px;
+    width: 330px;
+  }
+  
+  /*Card para vendedor*/
+
+  .card-vendedor{
+    margin-left: 6450%;
+    margin-top: 50%;
+    border: 3px solid #a00000; /* Color del borde */
+    border-radius: 30px; /* Borde redondeado */
+    width: 320px; /* Ancho de la imagen */
+    height: auto; /* Altura automática para mantener la proporción */
+  }
+
+  .card-vendedor-text{
+    /*margin-left: 5%;*/
+    margin-top: 50%;
+  }
+
+  /*Responsive*/
+
+  @media screen and (max-width: 1200px) {
+
+    .card-img-top {
+      margin-left: -550%;
+      border: 3px solid #a00000; /* Color del borde */
+      border-radius: 30px; /* Borde redondeado */
+      width: 210px; /* Ancho de la imagen */
+      height: auto; 
+    }
+ 
+    .card-body {
+      margin-left: -800%;
+      margin-top: 15px;
+      text-align: center; /* Centrar el texto */
+      font-size: 15px;
+      width: 290px;
+    }
+
+    .sidebar {
+      position: flex;
+      background: #ff3535;
+      width: 225px;
+      height: 90vh;
+      left: 0;
+      z-index: 1;
+    }
+
+    #foot {
+      background-color: #000;
+      height: 70px;
+      display: flex;
+      justify-content: center;
+      position: absolute;
+      bottom: 0;
+      width: 100%;
+      font-size: 200px;
+      z-index: 2;
+    }
+  
+    
+    #derechos {
+      color: white;
+      font-size: 20px;
+      margin: auto;
+      font-family: 'Poppins';
+    }
+
+  }
+
+
+  @media screen and (max-width: 1020px) {
+
+    .card-img-top {
+      margin-left: -500%;
+      border: 3px solid #a00000; /* Color del borde */
+      border-radius: 30px; /* Borde redondeado */
+      width: 210px; /* Ancho de la imagen */
+      height: auto; 
+    }
+ 
+    .card-body {
+      margin-left: -730%;
+      margin-top: 15px;
+      text-align: center; /* Centrar el texto */
+      font-size: 15px;
+      width: 290px;
+    }
+
+    .sidebar {
+      position: flex;
+      background: #ff3535;
+      width: 205px;
+      height: 90vh;
+      left: 0;
+      z-index: 1;
+    }
+
+    #foot {
+      background-color: #000;
+      height: 65px;
+      display: flex;
+      justify-content: center;
+      position: absolute;
+      bottom: 0;
+      width: 100%;
+      font-size: 200px;
+      z-index: 2;
+    }
+  
+    
+    #derechos {
+      color: white;
+      font-size: 15px;
+      margin: auto;
+      font-family: 'Poppins';
+    }
+
+
+  }
+
+  @media screen and (max-width: 720px) {
+
+    .card-img-top {
+      margin-left: -400%;
+      border: 3px solid #a00000; /* Color del borde */
+      border-radius: 30px; /* Borde redondeado */
+      width: 150px; /* Ancho de la imagen */
+      height: auto; 
+    }
+ 
+    .card-body {
+      margin-left: -630%;
+      margin-top: 15px;
+      text-align: center; /* Centrar el texto */
+      font-size: 15px;
+      width: 230px;
+    }
+
+  }
+
+
+  /*Responsive para index*/
+
+  @media screen and (max-width:1700px) {
+    .main {
+      margin: auto;
+      padding: 5px;
+      text-align: center; 
+      margin-left: -12%; 
+    }
+    
+    .main h2{
+      text-align: center;
+      margin-bottom: 10px;
+      font-size: 45px;
+      margin-left: 300px; 
+    }
+  
+    #btnav {
+      width: 250px;
+      height: 250px;
+      background-color: white;
+      border-radius: 150px;
+      font-family: arial black;
+      font-size: 100%;
+      color: black;
+      border: 2px solid #92000A;
+      margin: 20px;
+    }
+  }
+  
+  
+  @media screen and (max-width:1300px) {
+    .main {
+      margin: auto;
+      padding: 5px;
+      text-align: center; 
+      margin-left: -12%;
+    }
+    
+    .main h2{
+      text-align: center;
+      margin-bottom: 10px;
+      font-size: 45px;
+      margin-left: 300px; 
+    }
+  
+    #btnav {
+      width: 200px;
+      height: 200px;
+      background-color: white;
+      border-radius: 150px;
+      font-family: arial black;
+      font-size: 100%;
+      color: black;
+      border: 2px solid #92000A;
+      margin: 20px;
+    }
+  }
+
+  @media screen and (max-width:1000px) {
+    .main {
+      margin: auto;
+      padding: 5px;
+      text-align: center; 
+      margin-left: -12%;
+    }
+    
+    .main h2{
+      text-align: center;
+      margin-bottom: 10px;
+      font-size: 45px;
+      margin-left: 300px; 
+    }
+  
+    .boton {
+      margin-top: 5%;
+      margin-bottom: 1%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+
+    #btnav {
+      width: 200px;
+      height: 200px;
+      background-color: white;
+      border-radius: 150px;
+      font-family: arial black;
+      font-size: 100%;
+      color: black;
+      border: 2px solid #92000A;
+      margin: 20px;
+    }
+
+    #foot {
+      background-color: #000;
+      height: 75px;
+      display: flex;
+      justify-content: center;
+      position: absolute;
+      margin-bottom: -70%;
+      width: 100%;
+      font-size: 200px;
+      z-index: 2;
+    }
+  }
