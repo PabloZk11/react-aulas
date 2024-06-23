@@ -9,7 +9,7 @@ const Proveedores = () => {
     const url="https://laravel-production-fb9e.up.railway.app/api/pedido";
     const urlP="https://laravel-production-fb9e.up.railway.app/api/pedido-pdf";
     const urlU="https://laravel-production-fb9e.up.railway.app/api/usuario";
-    const urlPr="https://laravel-production-fb9e.up.railway.app/producto";
+    const urlPr="https://laravel-production-fb9e.up.railway.app/api/producto";
     const [pedido,setPedido] = useState([]);
     const [usuario,setUsuario] = useState([]);
     const [proveedores, setProveedores] = useState([]);
