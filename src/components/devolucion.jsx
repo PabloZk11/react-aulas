@@ -6,10 +6,10 @@ import { useRef } from 'react';
 
 const Devolucion = () => {
 
-  const url="http://localhost/apiaulas3/public/api/devolucion";
-  const urlP="http://localhost/apiaulas3/public/api/devolucion-pdf";
-  const urlEn="http://localhost/apiaulas3/public/api/entrada_mercancia";
-  const urlPr="http://localhost/apiaulas3/public/api/producto";
+  const url="https://laravel-production-fb9e.up.railway.app/api/devolucion";
+  const urlP="https://laravel-production-fb9e.up.railway.app/api/devolucion-pdf";
+  const urlEn="https://laravel-production-fb9e.up.railway.app/api/entrada_mercancia";
+  const urlPr="https://laravel-production-fb9e.up.railway.app/api/producto";
   const [devolucion,setDevolucion] = useState([])
   const [entradas,setEntradas] = useState([]);
   const [producto,setProducto] = useState([]);

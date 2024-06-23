@@ -6,8 +6,8 @@ import { useRef } from 'react';
 
 const ProductosA = () => {
 
-    const url="http://localhost/apiaulas3/public/api/producto";
-    const urlP="http://localhost/apiaulas3/public/api/producto-pdf";
+    const url="https://laravel-production-fb9e.up.railway.app/api/producto";
+    const urlP="https://laravel-production-fb9e.up.railway.app/api/producto-pdf";
     const [producto,setProducto] = useState([])
     const [proveedores, setProveedores] = useState([]);
     const [categorias, setCategorias] = useState([]);

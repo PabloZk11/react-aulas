@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import './css/Login.css';
 
 const Login = () => {
-  const url = "http://localhost/apiaulas3/public/api/login";
+  const url = "https://laravel-production-fb9e.up.railway.app/api/login";
   const [email, setEmail] = useState('');
   const [contraseña, setcontraseña] = useState('');
   const [error, setError] = useState('');

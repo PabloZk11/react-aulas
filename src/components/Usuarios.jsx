@@ -7,7 +7,7 @@ import { useRef } from 'react';
 const Usuarios = () => {
 
   const url="https://laravel-production-fb9e.up.railway.app/api/usuario";
-  const urlP="http://localhost/apiaulas3/public/api/usuario-pdf";
+  const urlP="https://laravel-production-fb9e.up.railway.app/api/usuario-pdf";
   const [usuario,setUsuario] = useState([])
   const [successMessage, setSuccessMessage] = useState("");
   const [searchTerm, setSearchTerm] = useState("");

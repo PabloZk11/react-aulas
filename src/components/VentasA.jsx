@@ -6,9 +6,9 @@ import { useRef } from 'react';
 
 export const VentasA = () => {
 
-  const url="http://localhost/apiaulas3/public/api/salida";
-  const urlP="http://localhost/apiaulas3/public/api/salida-pdf";
-  const urlPr="http://localhost/apiaulas3/public/api/producto";
+  const url="https://laravel-production-fb9e.up.railway.app/api/salida";
+  const urlP="https://laravel-production-fb9e.up.railway.app/api/salida-pdf";
+  const urlPr="https://laravel-production-fb9e.up.railway.app/api/producto";
   const [registro_salida,setRegistro_salidas] = useState([]);
   const [producto,setProducto] = useState([]);
   const [successMessage, setSuccessMessage] = useState("");
