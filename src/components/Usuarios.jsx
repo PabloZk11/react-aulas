@@ -44,7 +44,7 @@ const Usuarios = () => {
     const formData = new FormData(myFormRef.current); // Suponiendo que tienes un formulario con una referencia
     const nombre = formData.get('nombre');
     const email = formData.get('email');
-    const contraseña = formData.get('contrasena');
+    const contrasena = formData.get('contrasena');
     const id_rol = formData.get('id_rol');
     const id_documento = formData.get('id_documento');
 
@@ -52,7 +52,7 @@ const Usuarios = () => {
     const productData = {
         nombre: nombre,
         email: email,
-        contraseña: contraseña,
+        contrasena: contrasena,
         id_rol: id_rol,
         id_documento: id_documento
         
@@ -163,7 +163,7 @@ const Usuarios = () => {
             <div className="f1">
               <input type="search" name="nombre" className="in" placeholder="nombre :" required="required" />
               <input type="search" name="email" className="in" placeholder="email :" required="required" />
-              <input type="search" name="contrasena" className="in" placeholder="contraseña:" required="required" />
+              <input type="search" name="contrasena" className="in" placeholder="contrasena:" required="required" />
               <input type="search" name="id_rol" className="in" placeholder="rol (1 = admin | 2 = vendedor):" required="required" />
               <input type="search" name="id_documento" className="in" placeholder="documento (1 = CC | 2 = TI):" required="required" />
               <button type="button" onClick={handleCrearUsuarios}>Registrar</button>
