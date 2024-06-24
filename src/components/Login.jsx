@@ -57,9 +57,6 @@ const Login = () => {
           </div>
         </div>
       </div>
-      <div className="pqrs">
-        <a href="pqrs.html"><i className="fa-solid fa-circle-exclamation fa-beat" /></a>
-      </div>
       <footer id="foot">
         <small id="derechos">© 2024  <b>Aulas</b> - todos los derechos reservados</small>
       </footer>
