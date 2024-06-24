@@ -30,7 +30,7 @@ function Index() {
 
   return (
     <div>
-      <header>
+      <header_index>
         <div className="container_menu">
           <div className="logo">
             <img src="img/logo.png" alt="" />
@@ -49,7 +49,7 @@ function Index() {
             </nav>
           </div>
         </div>
-      </header>
+      </header_index>
       <main>
         <div className="container_cover">
           <div className="cover">
