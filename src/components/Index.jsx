@@ -72,7 +72,7 @@ function Index() {
       <footer>
         <div className="box__copyright">
           <hr />
-          <p>Todos los derechos reservados © 2021 <b>M&amp;J</b></p>
+          <p>Todos los derechos reservados © 2024 <b>M&amp;J</b></p>
         </div>
       </footer>
     </div>
