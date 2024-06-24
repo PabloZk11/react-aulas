@@ -226,7 +226,7 @@ const Devolucion = () => {
           <section>
             <div id="div_buscador">
                     <img src="../img/Lupa.png" alt="Lupa" />
-                    <input type="text" id="buscador" placeholder="Busca algún devolución:" value={searchTerm} onChange={handleBuscar} />
+                    <input type="text" id="buscador" placeholder="Busca alguna devolución:" value={searchTerm} onChange={handleBuscar} />
             </div>
             <table className="table table-striped">
             
