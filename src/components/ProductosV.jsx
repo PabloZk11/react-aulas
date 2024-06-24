@@ -167,9 +167,7 @@ const ProductosV = () => {
                 </tbody></table>
             </section>
         </div></section></main>
-    <div className="pqrs">
-        <i className="fa-solid fa-circle-exclamation fa-beat" />
-    </div>
+  
     <footer id="foot">
         <p id="derechos">J&amp;M D.S - Todos los derechos reservados</p>
     </footer>

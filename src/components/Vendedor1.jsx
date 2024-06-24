@@ -75,9 +75,6 @@ const Vendedor1 = () => {
                 </section> 
                 </div> 
             </main>
-            <div className="pqrs">
-                <i className="fa-solid fa-circle-exclamation fa-beat" />
-            </div>
             <footer id="foot">
                 <small id="derechos">© 2023  <b>Aulas</b> - todos los derechos reservados</small>
             </footer>

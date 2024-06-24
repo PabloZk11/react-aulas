@@ -35,7 +35,6 @@ const Login = () => {
         </div>
       </nav>
       <div className="container">
-        <Link to="/Indexven" className="boton-esquina">Ingresar como Vendedor</Link>
         <div id="container">
           <div className="form-container sign-up" />
           <div className="form-container sign-in">
