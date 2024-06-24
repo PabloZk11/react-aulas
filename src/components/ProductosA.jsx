@@ -228,11 +228,11 @@ const ProductosA = () => {
                 </section>
                 </div>
                 <section>
-                <table className="table table-striped">
                     <div id="div_buscador">
                       <img src="../img/Lupa.png" alt="Lupa" />
                       <input type="text" id="buscador" placeholder="Busca algún Producto:" value={searchTerm} onChange={handleBuscar} />
                     </div>
+                <table className="table table-striped">
                     <thead className="table-dark">
                     <tr>
                         <th scope="col">id_producto</th>
@@ -266,10 +266,7 @@ const ProductosA = () => {
                     </tbody>
                     </table>
                 </section>
-                <div id="div_buscador">
-                <img src="../img/Lupa.png" alt />
-                <input type="text" id="buscador" placeholder="Busca algún Producto:" />
-                </div>
+                
             </div>
             </section>
         </main>

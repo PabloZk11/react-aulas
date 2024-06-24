@@ -86,6 +86,14 @@ export const Indexadm = () => {
                 </label>
               </Link>
             </li>
+            <li>
+              <Link to="/Proveedores" className="but_menu">
+                <i className="fas fa-server" />
+                <label htmlFor="btn-modal-ventas">
+                  Proveedores
+                </label>
+              </Link>
+            </li>
             <li id="li_cerrar">
               <button onClick={handleLogout} className="but_menu">
                 <i className="fa-regular fa-circle-xmark" />

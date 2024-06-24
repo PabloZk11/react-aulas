@@ -216,7 +216,6 @@ const Devolucion = () => {
                 Registrar Nueva Devolucion
               </label></a>
           </section>
-      
           <section id="ag_prod">
             <a href="#" id="but_ag" onClick={getPdf}>Generar informe</a>
           </section>

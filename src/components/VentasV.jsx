@@ -140,27 +140,6 @@ const handleBuscar = (event) => {
       <label htmlFor="btn-modal-añadir" className="cerrar-modal-añadir" />
     </div>
     {/*Fin de Ventana Modal Advertencia*/}
-    {/*Ventana Modal Filtro*/}
-    <input type="checkbox" id="btn-modal-filtro" />
-    <div className="container-modal-filtro">
-      <div className="content-modal-filtro">
-        <h2>Filtrar Ventas</h2>
-        <p>En este apartado podras elegir desde que fecha quieres 
-          ver las ventas realizadas en la papeleria Aulas. </p>
-        <div>
-          <form className="formulario">
-            <div className="f1">
-              <input type="date" name="Fecha" className="in" placeholder="Fecha:" required="required" /> 
-            </div>
-          </form> 
-        </div>
-        <div className="btn-cerrar-filtro">
-          <label htmlFor="btn-modal-filtro"><a href="ventas_vendedor_vacio.html"><input type="submit" defaultValue="Añadir" className="enviar" /></a></label>
-        </div>
-      </div>
-      <label htmlFor="btn-modal-filtro" className="cerrar-modal-filtro" />
-    </div>
-    {/*Fin de Ventana Modal*/}
     <section id="cont_table">
       <div className="cont baja">
         <h2 className="title">Ventas</h2>   
@@ -171,11 +150,6 @@ const handleBuscar = (event) => {
               </label></a>
           </section>
           <section id="ag_prod">
-            <a href="#" id="but_ag"><label htmlFor="btn-modal-filtro">
-                Filtro
-              </label></a>
-          </section>
-          <section id="ag_prod">
             <a href="dsc/informe.docx" id="but_ag" download="Informe Ventas">Generar informe</a>
           </section>
           <section id="ag_prod">
@@ -183,12 +157,12 @@ const handleBuscar = (event) => {
           </section>
         </div>
         <section>
-          <table className="table table-striped">
           <div id="div_buscador">
                 <img src="../img/Lupa.png" alt />
                 <input type="text" id="buscador" placeholder="Buscar venta:" value={searchTerm} onChange={handleBuscar} />
           </div>
-            <thead className="table-dark">
+          <table className="table table-striped">
+                    <thead className="table-dark">
             <tr>
                 <th scope="col">id_salida</th>
                 <th scope="col">unidades</th>
