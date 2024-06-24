@@ -206,27 +206,7 @@ const Devolucion = () => {
       </div>
       <label htmlFor="btn-modal-añadir" className="cerrar-modal-añadir" />
     </div>
-    {/*Ventana Modal Filtro*/}
-    <input type="checkbox" id="btn-modal-filtro" />
-    <div className="container-modal-filtro">
-      <div className="content-modal-filtro">
-        <h2>Filtrar Usuarios</h2>
-        <p>En este apartado podras elegir desde que fecha quieres 
-          ver las mercarcía realizadas en la papeleria Aulas. </p>
-        <div>
-          <form className="formulario">
-            <div className="f1">
-              <input type="date" name="Fecha" className="in" placeholder="Fecha:" required="required" /> 
-            </div>
-          </form> 
-        </div>
-        <div className="btn-cerrar-filtro">
-          <label htmlFor="btn-modal-filtro"><a href="ventas_vendedor_vacio.html"><input type="submit" defaultValue="Buscar" className="enviar" /></a></label>
-        </div>
-      </div>
-      <label htmlFor="btn-modal-filtro" className="cerrar-modal-filtro" />
-    </div>
-    {/*Fin de Ventana Modal*/}
+    
     <section id="cont_table">
       <div className="cont">
         <h2 className="title"> Devoluciones</h2>   
@@ -236,11 +216,7 @@ const Devolucion = () => {
                 Registrar Nueva Devolucion
               </label></a>
           </section>
-          <section id="ag_prod">
-            <a href="#" id="but_ag"><label htmlFor="btn-modal-filtro">
-                Filtro
-              </label></a>
-          </section>
+      
           <section id="ag_prod">
             <a href="#" id="but_ag" onClick={getPdf}>Generar informe</a>
           </section>
@@ -248,11 +224,12 @@ const Devolucion = () => {
         <section>
           {/*Fin de Ventana Modal*/}
           <section>
-            <table className="table table-striped">
             <div id="div_buscador">
                     <img src="../img/Lupa.png" alt="Lupa" />
                     <input type="text" id="buscador" placeholder="Busca algún devolución:" value={searchTerm} onChange={handleBuscar} />
             </div>
+            <table className="table table-striped">
+            
               <thead className="table-dark">
                 <tr>
                   <th scope="col">id_devolucion</th>
