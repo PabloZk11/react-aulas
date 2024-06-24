@@ -30,11 +30,12 @@ const Login = () => {
       <nav className="navbar" style={{ backgroundColor: '#cd3030' }}>
         <div className="container-fluid">
           <a className="navbar-brand" href="index.html">
-            <img src="./img/logo.png" alt="Logo" width={300} height={120} className="d-inline-block align-text-top" />
+          <Link to="/"><img src="./img/logo.png" alt="Logo" width={300} height={120} className="d-inline-block align-text-top" /></Link>
           </a>
         </div>
       </nav>
       <div className="container">
+        <Link to="/Indexven" className="boton-esquina">Ingresar como Vendedor</Link>
         <div id="container">
           <div className="form-container sign-up" />
           <div className="form-container sign-in">
@@ -56,6 +57,7 @@ const Login = () => {
           </div>
         </div>
       </div>
+
       <footer id="foot">
         <small id="derechos">© 2024  <b>Aulas</b> - todos los derechos reservados</small>
       </footer>
