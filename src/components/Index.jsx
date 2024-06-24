@@ -43,7 +43,6 @@ function Index() {
               <ul>
                 <li><a id="selected"><Link to="/">Inicio</Link></a></li>
                 <li><a><Link to="/Login">Login</Link></a></li>
-                <li><a><Link to="/Indexven">Vendedor</Link></a></li>
                 <li><a href="#">Contactanos</a></li>
               </ul>
             </nav>
