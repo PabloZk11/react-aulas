@@ -133,9 +133,7 @@ const handleBuscar = (event) => {
             </div>
           </form> 
         </div>
-        <div className="btn-cerrar-añadir">
-          <label htmlFor="btn-modal-añadir"><a href="ventas_vendedor_añadir.html"><input type="submit" defaultValue="Añadir" className="enviar" /></a></label>
-        </div>
+        
       </div>
       <label htmlFor="btn-modal-añadir" className="cerrar-modal-añadir" />
     </div>
