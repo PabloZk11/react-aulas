@@ -273,7 +273,7 @@ const ProductosA = () => {
         </div>
         <div>
                 <footer id="foot">
-                <small id="derechos">&copy; 2023  <b>Aulas</b> - todos los derechos reservados</small>
+                <small id="derechos">&copy; 2024  <b>Aulas</b> - todos los derechos reservados</small>
                 </footer>
             </div>
             </div>
