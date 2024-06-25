@@ -775,7 +775,7 @@ body a{
 /* Menu  */
 .sidebar{
     position: flex;
-    background: #92000A;
+    background: #cd3030;
     width: 275px;
     height: 90vh;
     left: 0;
@@ -793,7 +793,7 @@ body a{
     font-size: 20px;
     text-transform: uppercase;
     color: #ffffff;
-    background: #a72c2c;
+    background: #cd3030;
     padding: 38.5px;
     font-weight: bold;
 
