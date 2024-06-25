@@ -116,15 +116,15 @@ const ProductosV = () => {
             <h2>Menu</h2>
             <ul className="menu_nav">
                 <li>
-                <Link to="/ProductosV" className="but_menu">
+                <Link to="/Vendedor1" className="but_menu">
                     <i className="fas fa-server" />
                     <label htmlFor="btn-modal-ventas">
-                    Productos
+                    Inicio
                     </label>
                 </Link>
                 </li>
                 <li>
-                <Link to="/VentasA" className="but_menu">
+                <Link to="/VentasV" className="but_menu">
                     <i className="fa-sharp fa-solid fa-cart-shopping" />
                     <label htmlFor="btn-modal-ventas">
                     Ventas
