@@ -85,18 +85,6 @@ const Indexven = () => {
                 <p>Vendedor 1</p>
               </button>
             </Link>
-            <Link to="/vendedor2">
-              <button id="btnav" type="button">
-                <img src="../img/user.png" alt="User" className="foto" />
-                <p>Vendedor 2</p>
-              </button>
-            </Link>
-            <Link to="/vendedor3">
-              <button id="btnav" type="button">
-                <img src="../img/user.png" alt="User" className="foto" />
-                <p>Vendedor 3</p>
-              </button>
-            </Link>
           </div>
         </div>
       </main>
