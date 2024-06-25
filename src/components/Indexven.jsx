@@ -36,7 +36,7 @@ const Indexven = () => {
               <a href="#" className="but_menu">
                 <i className="fa-regular fa-circle-xmark" />
                 <label htmlFor="btn-modal">
-                  Cerrar Sesion
+                  Cerrar Sesión
                 </label>
               </a>
             </li>
