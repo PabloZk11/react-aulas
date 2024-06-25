@@ -251,10 +251,7 @@ const handleBuscar = (event) => {
 
         </table>
         </section>
-        <div id="div_buscador">
-          <img src="../img/Lupa.png" alt />
-          <input type="text" id="buscador" placeholder="Busca alguna venta" />
-        </div>
+        
       </div>
     </section>
   </main>
