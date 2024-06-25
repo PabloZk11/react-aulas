@@ -116,7 +116,7 @@ const handleBuscar = (event) => {
             <div className="simula-body-merc">
             <nav className="navbar" style={{ backgroundColor: '#cd3030' }}>
                 <div className="container-fluid">
-                <a className="navbar-brand" href="index.html">
+                <a className="navbar-brand" href="#">
                     <img src="./img/logo.png" alt="Logo" width={300} height={120} className="d-inline-block align-text-top" />
                 </a>
                 </div>
