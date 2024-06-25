@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 const Vendedor1 = () => {
   return (
         
-            <div className="simula-body">
+            <div className="simula-body-merc">
            <nav className="navbar" style={{ backgroundColor: '#cd3030' }}>
             <div className="container-fluid">
             <a className="navbar-brand" href="index.html">
