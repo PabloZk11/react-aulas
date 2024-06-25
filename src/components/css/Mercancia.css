@@ -5,10 +5,16 @@
 }
 
 body{
-    background-color: #ffffff;
-    font-family: 'Poppins', sans-serif;
-    position: relative;
-    min-height: 100vh;
+
+        background-color: #fce8e8;
+        font-family: 'Poppins', sans-serif;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 10vh;
+        margin: 0;
+        width: 100%;
+    
 
 }
 
