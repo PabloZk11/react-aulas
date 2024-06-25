@@ -86,9 +86,6 @@ const Indexven = () => {
         </div>
       </main>
       <section>
-        <div className="pqrs">
-          <i className="fa-solid fa-circle-exclamation fa-beat" />
-        </div>
       </section>
       <footer id="foot">
         <small id="derechos">© 2024  <b>Aulas</b> - todos los derechos reservados</small>

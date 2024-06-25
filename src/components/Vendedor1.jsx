@@ -69,11 +69,6 @@ const Vendedor1 = () => {
                     </div>
                 </div>
                 </div>  
-                <div className="pqrs">
-                <section id="pqrs_se">
-                    <a href="Pqrs.html" id="icon_pqrs"><i className="fa-solid fa-circle-exclamation icon" id="icon_pqrs" href="Pqrs.html" /></a>
-                </section> 
-                </div> 
             </main>
             <footer id="foot">
                 <small id="derechos">© 2023  <b>Aulas</b> - todos los derechos reservados</small>
