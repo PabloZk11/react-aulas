@@ -62,10 +62,10 @@ const Vendedor1 = () => {
                 <div className="main baja">
                 <div style={{width: '1rem'}}>
                     <img src="../img/user.png" className="card-img-top" href="#" />
-                    <div className="card-vendedor">
-                    <h5 className="card-vendedor-text">¡Bienvenido, vendedor 1!</h5>
+                    <div className="card-vendedor"> 
+                    <h5 className="">¡Bienvenido, vendedor!</h5>
                     <br />
-                    <p className="">En esta sección se puede ingresar a las diferentes funciones para los vendedores de la papelería Aulas</p>
+                    <p className="">En la barra vertical izquierda podrás acceder a tus funciones de gestión</p>
                     </div>
                 </div>
                 </div>  
