@@ -13,7 +13,7 @@ body{
 }
 
 .simula-body-merc{
-        background-color: #fce8e8;
+        background-color: red;
         font-family: 'Poppins', sans-serif;
         display: flex;
         align-items: center;
