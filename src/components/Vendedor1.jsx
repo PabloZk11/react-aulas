@@ -34,12 +34,12 @@ const Vendedor1 = () => {
                     </Link>
                     </li>
                     <li id="li_cerrar">
-                    <a href="#" className="but_menu">
+                    <Link to="/Login" className="but_menu">
                         <i className="fa-regular fa-circle-xmark" />
                         <label htmlFor="btn-modal">
                         Cerrar sesión
                         </label>
-                    </a>
+                    </Link>
                     </li>
                 </ul>
                 </div>

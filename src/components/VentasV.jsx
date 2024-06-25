@@ -95,7 +95,7 @@ const handleBuscar = (event) => {
           </Link>
         </li>
         <li id="li_cerrar">
-          <Link to="/Indexven" className="but_menu">
+          <Link to="/Login" className="but_menu">
             <i className="fa-regular fa-circle-xmark" />
             <label htmlFor="btn-modal">
               Cerrar sesión
