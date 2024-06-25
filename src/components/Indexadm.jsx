@@ -97,9 +97,10 @@ export const Indexadm = () => {
             <li id="li_cerrar">
               <button onClick={handleLogout} className="but_menu">
                 <i className="fa-regular fa-circle-xmark" />
-                <label htmlFor="btn-modal-ventas">
+                <Link to="/Login"><label htmlFor="btn-modal-ventas">
                   Cerrar sesión
                 </label>
+                </Link>
               </button>
             </li>
           </ul>
