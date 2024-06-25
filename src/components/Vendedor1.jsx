@@ -63,7 +63,7 @@ const Vendedor1 = () => {
                 <div style={{width: '1rem'}}>
                     <img src="../img/user.png" className="card-img-top" href="#" />
                     <div className=""> 
-                    <h5 className="card-vendedor-text">¡Bienvenido, vendedor!</h5>
+                    <h5 className="">¡Bienvenido, vendedor!</h5>
                     <br />
                     <p className="">En la barra vertical izquierda podrás acceder a tus funciones de gestión</p>
                     </div>
