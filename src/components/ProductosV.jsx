@@ -4,7 +4,7 @@ import React, {useState, useEffect} from 'react';
 import  axios  from 'axios';
 import { useRef } from 'react';
 
-const ProductosA = () => {
+const ProductosV = () => {
 
     const url="https://laravel-production-fb9e.up.railway.app/api/producto";
     const urlP="https://laravel-production-fb9e.up.railway.app/api/producto-pdf";
