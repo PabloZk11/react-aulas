@@ -65,7 +65,7 @@ const handleBuscar = (event) => {
 };
   return (
     <div>
-            <div className="simula-body-merc">
+            <div className="">
             <nav className="navbar" style={{ backgroundColor: '#cd3030' }}>
                 <div className="container-fluid">
                 <a className="navbar-brand" href="index.html">
@@ -79,7 +79,7 @@ const handleBuscar = (event) => {
       <h2>Menú</h2>
       <ul className="menu_nav">
         <li>
-          <Link to="/Indexven" className="but_menu">
+          <Link to="/Vendedor1" className="but_menu">
             <i className="fa-sharp fa-solid fa-cart-shopping" />
             <label htmlFor="btn-modal-ventas">
               Inicio
