@@ -71,18 +71,15 @@ const Indexven = () => {
         </div>
         {/* Fin de Ventana Modal */}
         <div className="main">
-          <h2>Perfiles de Vendedores</h2>
+          <h2>Bienvenido vendedor.</h2>
           <p className="p1">
-            En esta sección se puede ingresar a los diferentes perfiles para
-          </p>
-          <p className="p1">
-            los vendedores de la palería Aulas:
+          Por favor ingresa a tu perfil de gestión.
           </p>
           <div className="boton">
             <Link to="/vendedor1">
               <button id="btnav" type="button">
                 <img src="../img/user.png" alt="User" />
-                <p>Vendedor 1</p>
+                <p>Vendedor</p>
               </button>
             </Link>
           </div>
