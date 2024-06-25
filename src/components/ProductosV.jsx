@@ -215,6 +215,7 @@ const ProductosV = () => {
                       item.nom_producto.toLowerCase().includes(searchTerm.toLowerCase()) ||
                       item.id_producto.toString().includes(searchTerm) ||
                       item.precio_unitario.toString().includes(searchTerm) ||
+                      item.unidades_disponibles.toLowerCase().includes(searchTerm.toLocaleLowerCase())||
                       item.marca.toLowerCase().includes(searchTerm.toLowerCase()) ||
                       item.proveedor.nom_proveedor.toLowerCase().includes(searchTerm.toLowerCase()) ||
                       item.categoria.nombre_categoria.toLowerCase().includes(searchTerm.toLowerCase()) 
