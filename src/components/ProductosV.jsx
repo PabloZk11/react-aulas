@@ -88,7 +88,7 @@ const ProductosV = () => {
         <h2>Menú</h2>
         <ul className="menu_nav">
             <li>
-        <Link to="/Indexven" className="but_menu">
+        <Link to="/Vendedor1" className="but_menu">
                 <i className="fas fa-server" />
                 <label htmlFor="btn-modal-ventas">
                 Inicio
@@ -104,12 +104,12 @@ const ProductosV = () => {
             </Link>
             </li>
             <li id="li_cerrar">
-            <a href="#" className="but_menu">
+              <Link to="/Indexven" className="but_menu">
                 <i className="fa-regular fa-circle-xmark" />
                 <label htmlFor="btn-modal">
                 Cerrar sesión
                 </label>
-            </a>
+            </Link>
             </li>
         </ul>
         </div>
