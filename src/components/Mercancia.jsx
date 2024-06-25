@@ -113,7 +113,7 @@ const handleBuscar = (event) => {
 
   return (
             <div>
-            <div className="">
+            <div className="simula-body">
             <nav className="navbar" style={{ backgroundColor: '#cd3030' }}>
                 <div className="container-fluid">
                 <a className="navbar-brand" href="index.html">
@@ -147,14 +147,6 @@ const handleBuscar = (event) => {
                     <i className="fa-solid fa-truck-field" />      
                     <label htmlFor="btn-modal-ventas">
                     Proveedores
-                    </label>
-                </Link>
-                </li>
-                <li>
-                <Link to="/Mercancia" className="but_menu">
-                    <i className="fa-solid fa-boxes-stacked" />
-                    <label htmlFor="btn-modal-ventas">
-                    Mercancia
                     </label>
                 </Link>
                 </li>
